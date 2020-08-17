@@ -1,0 +1,84 @@
+.landing-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/img/neighbours.jpg");
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  padding-top: 50px;
+
+  .button-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-right: 150px;
+
+    a {
+      color: white;
+      display: flex;
+      justify-content: space-around;
+      margin-left: 80px;
+      padding: 12px 22px;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}
+
+.landing-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  color: $offWhiteBackground;
+  text-shadow: 0 0 10px black;
+  margin-bottom: 100px;
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+
+.mobile-landing-image {
+  display: none;
+}
+
+@media screen and (max-width: 798px) {
+  .landing-container {
+    .button-container {
+      display: flex;
+      justify-content: center;
+    }
+  }
+
+  .landing-image {
+    display: flex;
+    justify-content: center;
+    img {
+      width: 100%;
+    }
+  }
+  .landing-title {
+    text-align: center;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .landing-container {
+    align-items: center;
+
+    .button-container {
+      justify-content: space-around;
+      padding-bottom: 150px;
+      padding-right: 0px;
+      a {
+        margin-left: 0px;
+        padding: 12px 30px;
+      }
+    }
+    .landing-title {
+      padding-bottom: 200px;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.fc-event-main {
+  cursor: pointer;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 2vh;
+}
+
+.fc {
+  padding: 20px;
+}
+.menu {
+  position: absolute;
+  top: -2vh;
+  left: 20vw;
+}
+.calender {
+  width: 90vw;
+  height: 90vh;
+  margin: auto;
+}
+
+.fc-col-header-cell-cushion {
+  color: #2c3e50;
+}
+.fc-daygrid-day-number {
+  color: #2c3e50;
+}
+
+.form-contenant {
+  width: 40vw;
+  .event-form {
+    display: flex;
+    flex-direction: row;
+
+    .first-section {
+      padding-right: 30px;
+      width: 50%;
+      .offer {
+        padding-left: 20px;
+      }
+    }
+    .second-section {
+      width: 50%;
+      .date {
+        padding-bottom: 20px;
+      }
+      .address {
+        padding-top: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .form-contenant {
+    width: 60vw;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .form-contenant {
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .form-contenant {
+    width: 90vw;
+  }
+}
+
+#event-filter-by-category {
+  margin-top: 4.8rem;
+  z-index: 1;
+}

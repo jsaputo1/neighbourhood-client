@@ -1,0 +1,57 @@
+
+.postingRow {
+    display: flex;
+    justify-content: center;
+}
+
+.all-postings {
+    margin-top: -2rem;
+    max-width: 100%;
+
+    .card-body {
+      background-color: white !important;
+    }
+}
+
+  #services-alerts-title {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+#services-alerts-title-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white !important;
+}
+
+
+#services-alerts-header {
+  display: flex;
+  justify-content: center;
+  background-color: white !important;
+  font-family: $titleFont;
+
+  h1 {
+  font-size: 3.5rem !important;
+  }
+}
+
+#services-alerts-spreader {
+display: flex;
+justify-content: center;
+align-items: flex-start;
+  }
+
+#services-alerts-new-button {
+  height: 3.6rem;
+  width: 12rem;
+  margin-right: .5rem;
+}
+
+#services-alerts-filter-dropdown {
+  height: 3.6rem;
+  width: 14rem;
+}

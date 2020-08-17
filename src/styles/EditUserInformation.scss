@@ -1,0 +1,23 @@
+.edit-form-buttons {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.edit-user-information-container {
+  height: 100%;
+}
+
+.change-neighbourhood-link {
+  h2 {
+   color: #1c658a;
+    font-size: 16px;
+    padding: 10px 0 20px 0;
+
+    &:hover {
+      color: $darkBlue;
+    }
+
+  }
+}

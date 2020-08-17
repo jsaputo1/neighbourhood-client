@@ -1,0 +1,129 @@
+#account-wrapper {
+    margin-top: 1.5rem;
+}
+
+#account-spreader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account-header-spreader {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    word-wrap: normal;
+}
+
+.account-header-spreader-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#account-user-info-header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.account-buttons{
+    width: 16rem;
+}
+
+.account-user-name {
+    margin-top: .7rem;
+    margin-bottom: -.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#account-header-contact-info {
+    margin-left: auto;
+}
+
+#account-center-column {
+    min-width: 33rem;
+}
+
+#account-edit {
+    margin-bottom: .9rem;
+}
+
+
+#account-bio {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#account-neighbourhood {
+    display: flex;
+    justify-content: space-between;
+    margin-top: auto;
+    margin-bottom: auto;
+
+    #account-single-neighbourhood {
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #account-single-neighbours {
+        width: 12rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+#account-subscriptions-form {
+    width: 30rem;
+}
+
+#account-subscriptions-subscriptions {
+    width: 32rem;
+}
+
+.account-map-wrapper {
+display: flex;
+flex-wrap: wrap;
+}
+.account-map-wrapper>* {
+    flex: 0 0 45%;
+    margin: .05rem;
+    margin-left: .5rem;
+}
+
+
+.account-subscriptions-category{
+margin-top: .2rem;
+margin-bottom: -.1px;
+}
+
+
+#account-subscription-title {
+    margin-bottom: 1rem;
+}
+
+
+
+#account-subscriptions-buttons {
+margin-top: 1.5rem;
+}
+
+#account-subscription-cancel-button{
+    margin-left: 2rem;
+}
+
+#account-SMS-note {
+    display: flex;
+    justify-content: center;
+margin-top: -1rem;
+line-height: 1rem;
+font-size: 1rem;
+color :#5f5f64;
+}
